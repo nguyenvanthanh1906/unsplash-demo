@@ -232,7 +232,12 @@ header {
     }
     
     }
-
+@media (max-width: 480px) {
+    .container-content {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+    
+    }
 .col{
     display: grid;
     grid-template-columns: minmax(0,1fr);
